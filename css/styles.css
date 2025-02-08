@@ -1,0 +1,47 @@
+/* box sizing */
+
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/* styling the body of the page */
+
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: rgb(37, 54, 71);
+    padding: 5%;
+  }
+
+  main section {
+    height: 200px;
+  }
+
+  .section-3 section {
+    width: 32%;
+    height: 250px;
+    float: left;
+    padding: 5% 5%;
+    margin: 0.5%;
+    border: solid 1px black;
+  }
+
+  #recent-books {
+    display:flex;
+    justify-content: center;
+  }

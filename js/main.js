@@ -1,4 +1,5 @@
 // Lovely One ISBN 9780593729908
+// Sonia Sotomayor My Beloved World 9780345804839
 
 document.getElementById('find').addEventListener('click', getCover)
 
@@ -7,5 +8,5 @@ function getCover() {
     const url= `https://covers.openlibrary.org/b/isbn/${art}-M.jpg`
 
     fetch(url)
-        document.querySelector('img').src = url
+        document.querySelector("#cover-img").src = url
 }
